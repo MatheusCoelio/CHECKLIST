@@ -2,7 +2,7 @@ body {
     background-color:#EBF2FA;
     color: black;
     margin: 0%;
-    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     
     
@@ -65,16 +65,30 @@ display: flex;
 .tarefas input.dgt-tarefa {
   height: 30px;
   width: 200px;
+  border: none;
   
   
 }
 .tarefas input.btn-enviatarefa {
   width: 100px;
   height: 40px;
-  background-color: white;
+  background-color:#5ADBFF;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: none;
 }
 .tarefas input.btn-enviatarefa:hover {
-  background-color: #5ADBFF;
+  border: solid 2px black;
+  color: white;
+  cursor: pointer;
+}
+#tasklist {
+  background-color: white;
+  color: black;
+  width: 300px;
+  height: 80px;
+ margin-left: 8%;
+ border-radius: 5px;
+
 }
 .switch {
     position: relative;
